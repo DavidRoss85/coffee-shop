@@ -2,7 +2,7 @@
   "name": "coffeeshop",
   "version": "1.0.0",
   "description": "Basic Coffee Shop",
-  "main": "index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build",
@@ -12,7 +12,11 @@
   "author": "Antonio, Andrew and David",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
     "bootstrap": "^5.2.3",
     "parcel": "^2.10.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.0"
   }
 }
